@@ -42,16 +42,6 @@ To work with this repository, you will need:
      Problem Solutions.sql
      ```
 
-## Contributing
-
-Contributions are welcome! Feel free to add more solutions, improve existing ones, or provide feedback.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to your branch (`git push origin feature/YourFeature`).
-5. Open a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
