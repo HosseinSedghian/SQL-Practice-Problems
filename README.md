@@ -42,14 +42,6 @@ To work with this repository, you will need:
      Problem Solutions.sql
      ```
 
-## Usage
-
-Each SQL script in this repository corresponds to a specific problem in the book. The solutions are organized by chapter or topic. To use them:
-
-- Open your SQL client.
-- Connect to your database.
-- Execute any of the solution scripts to see the results.
-
 ## Contributing
 
 Contributions are welcome! Feel free to add more solutions, improve existing ones, or provide feedback.
@@ -67,13 +59,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 Special thanks to Sylvia Moestl Vasilik for her excellent book that has helped many improve their SQL skills!
-
-Citations:
-[1] https://bookshelf.erwin.com/bookshelf/public_html/2019R2/Content/Tutorials/Scenarios/Creating%20a%20Database%20Schema/creating_a_database_schema.html
-[2] https://learn.microsoft.com/th-th/sql/relational-databases/security/authentication-access/create-a-database-schema?view=sql-server-2017
-[3] https://learn.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver16
-[4] https://www.postgresql.org/docs/current/sql-createschema.html
-[5] https://www.sqlshack.com/a-walkthrough-of-sql-schema/
-[6] https://dev.mysql.com/doc/refman/8.4/en/create-database.html
-[7] https://www.integrate.io/blog/complete-guide-to-database-schema-design-guide/
-[8] https://docs.oracle.com/en/cloud/paas/exadata-express-cloud/csdbp/create-database-schemas.html
