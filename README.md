@@ -1,5 +1,3 @@
-# README.md for SQL Practice Problems Repository
-
 ## Overview
 
 Welcome to my repository dedicated to solving the exercises from **"SQL Practice Problems"** by Sylvia Moestl Vasilik. This project includes the complete database schema and data files necessary to practice and solve the SQL problems presented in the book.
