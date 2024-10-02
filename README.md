@@ -1,6 +1,6 @@
 ## Overview
 
-Welcome to my repository dedicated to solving the exercises from **"SQL Practice Problems"** by Sylvia Moestl Vasilik. This project includes the complete database schema and data files necessary to practice and solve the SQL problems presented in the book.
+Welcome to my repository dedicated to the exercises from **"SQL Practice Problems"** by Sylvia Moestl Vasilik. This project includes the complete database schema and data files created specifically for **SQL Server 2022**, along with solutions to all the problems presented in the book.
 
 ## Contents
 
@@ -14,8 +14,8 @@ Welcome to my repository dedicated to solving the exercises from **"SQL Practice
 
 To work with this repository, you will need:
 
-- A MySQL or compatible database server installed on your machine.
-- A SQL client tool (like MySQL Workbench, DBeaver, or any command line tool) to run the SQL scripts.
+- **SQL Server 2022** installed on your machine.
+- A SQL client tool (like SQL Server Management Studio) to run the SQL scripts.
 
 ### Installation
 
@@ -26,13 +26,16 @@ To work with this repository, you will need:
    ```
 
 2. **Set Up the Database**:
-   - Create a new database on your MySQL server.
-   - Import the schema file:
+   - Open SQL Server Management Studio and connect to your SQL Server instance.
+   - Create a new database (e.g., `SQLPracticeDB`).
+   - Execute the schema file:
      ```sql
+     USE SQLPracticeDB;
      SOURCE path/to/schema.sql;
      ```
-   - Import the sample data:
+   - Execute the sample data file:
      ```sql
+     USE SQLPracticeDB;
      SOURCE path/to/data.sql;
      ```
 
@@ -41,7 +44,7 @@ To work with this repository, you will need:
 
 ## Usage
 
-Each SQL script in this repository corresponds to a specific problem in the book. You can find them organized by chapter or topic. To use them:
+Each SQL script in this repository corresponds to a specific problem in the book. The solutions are organized by chapter or topic. To use them:
 
 - Open your SQL client.
 - Connect to your database.
@@ -49,7 +52,7 @@ Each SQL script in this repository corresponds to a specific problem in the book
 
 ## Contributing
 
-Feel free to contribute by adding more solutions, improving existing ones, or providing feedback! 
+Contributions are welcome! Feel free to add more solutions, improve existing ones, or provide feedback.
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/YourFeature`).
@@ -66,11 +69,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Special thanks to Sylvia Moestl Vasilik for her excellent book that has helped many improve their SQL skills!
 
 Citations:
-[1] https://stackoverflow.com/questions/16288579/how-to-include-mysql-database-schema-on-github
-[2] https://github.com/UjjwalSud/SQL-Server-Database-Project
-[3] https://github.com/OpenDataRepository/data-publisher
-[4] https://github.com/ronaldbradford/schema
-[5] https://github.com/schemaspy/schemaspy
-[6] https://github.com/martinjw/dbschemareader
-[7] https://github.com/theodi/data-publish-list
-[8] https://github.com/WordPress/wp-feature-notifications/issues/391
+[1] https://bookshelf.erwin.com/bookshelf/public_html/2019R2/Content/Tutorials/Scenarios/Creating%20a%20Database%20Schema/creating_a_database_schema.html
+[2] https://learn.microsoft.com/th-th/sql/relational-databases/security/authentication-access/create-a-database-schema?view=sql-server-2017
+[3] https://learn.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver16
+[4] https://www.postgresql.org/docs/current/sql-createschema.html
+[5] https://www.sqlshack.com/a-walkthrough-of-sql-schema/
+[6] https://dev.mysql.com/doc/refman/8.4/en/create-database.html
+[7] https://www.integrate.io/blog/complete-guide-to-database-schema-design-guide/
+[8] https://docs.oracle.com/en/cloud/paas/exadata-express-cloud/csdbp/create-database-schemas.html
