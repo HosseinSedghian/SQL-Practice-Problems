@@ -21,26 +21,26 @@ To work with this repository, you will need:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/sql-practice-problems.git
+   git clone https://github.com/HosseinSedghian/sql-practice-problems.git
    cd sql-practice-problems
    ```
 
 2. **Set Up the Database**:
    - Open SQL Server Management Studio and connect to your SQL Server instance.
-   - Create a new database (e.g., `SQLPracticeDB`).
    - Execute the schema file:
-     ```sql
-     USE SQLPracticeDB;
-     SOURCE path/to/schema.sql;
+     ```
+     Create Database Schema.sql
      ```
    - Execute the sample data file:
-     ```sql
-     USE SQLPracticeDB;
-     SOURCE path/to/data.sql;
+     ```
+     Insert Data Into Database.sql
      ```
 
 3. **Run Solutions**:
-   - You can execute any of the solution scripts provided in this repository to test your queries against the sample data.
+   - Execute the solutions file:
+     ```
+     Problem Solutions.sql
+     ```
 
 ## Usage
 
